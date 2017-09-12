@@ -6,7 +6,7 @@
      <style>
         body{
           margin: 0px;
-          font-size: x-large;
+          font-size: large;
         }
         #header {
           background-color: #8BC34A;
@@ -16,14 +16,39 @@
           font-size: xx-large;
       }
         #content{
-          text-align: center;
+
         }
         .grid {
-          width: 70%;
-          margin: 100px auto 0 auto;
+            width: 25%;
+            text-align: center;
+            display: inline-block;
+            padding: 3%;
         }
         .grid img{
-          width: 100%;
+          width: 80%;
+        }
+        @media (max-width: 480px){
+          body{
+            margin: 0px;
+            font-size: x-large;
+          }
+          #header {
+            background-color: #8BC34A;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: xx-large;
+          }
+          #content{
+            text-align: center;
+          }
+          .grid {
+            width: 70%;
+            margin: 100px auto 0 auto;
+          }
+          .grid img{
+            width: 100%;
+          }
         }
      </style>
    </head>
